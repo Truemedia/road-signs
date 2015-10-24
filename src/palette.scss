@@ -1,0 +1,21 @@
+/* Colour palette as specified here: https://www.gov.uk/guidance/traffic-sign-images#about-the-images */
+$red: rgb(227, 24, 55);
+$blue: rgb(0, 121, 193);
+$yellow: rgb(255, 210, 0);
+$dark-green: rgb(0, 112, 60);
+$brown: rgb(121, 68, 0); 	
+$light-green: rgb(94, 151, 50);	
+$orange: rgb(250, 166, 52);
+
+$warning-sign: $red;
+$motorway-sign: $blue;
+$waiting-restriction: $yellow;
+$direction-sign-none-quiet-lane: $dark-green;
+$tourist-sign: $brown;
+$fire-rendezvous-sign: $light-green;
+$emergency-phone-label: $orange;
+
+.test {
+	color: $warning-sign;
+	background-color: $motorway-sign;
+}
