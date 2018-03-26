@@ -1,0 +1,25 @@
+{
+  "name": "road-signs",
+  "version": "1.0.0",
+  "description": "UK road signs as SVG and stylesheet variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truemedia/road-signs.git"
+  },
+  "author": "Wade Penistone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truemedia/road-signs/issues"
+  },
+  "homepage": "https://github.com/Truemedia/road-signs#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-exec": "^3.0.1",
+    "gulp-fileinfo": "^1.0.4",
+    "gulp-shell": "^0.6.5"
+  }
+}
