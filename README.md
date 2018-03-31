@@ -16,6 +16,12 @@ Once dependencies have been installed, you can simply run the following to conve
 
 SASS variables are currently minimal and not derived from colors within the SVG's
 
+## Optional
+There is also a task to create a reference to all the files as a json array which can be consumed by other services, simply run:
+    `gulp files`
+
+This will generate an `index.json` in your root directory
+
 ### Copyright
 Traffic signs are Crown copyright. They are part of legislation (Traffic Signs Regulations and General Directions 2002, often referred to as TSRGD). The numbers in the image file names relate to the TSRGD numbering.
 
