@@ -18,6 +18,6 @@ gulp.task('minify', function() {
 
 gulp.task('files', function() {
     gulp.src('./dest/**/*.svg')
-        .pipe( folderIndex() )
+        .pipe( folderIndex({ extension: '.svg' }) )
         .pipe( gulp.dest('./') );
 });
