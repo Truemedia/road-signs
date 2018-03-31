@@ -20,6 +20,7 @@
     "gulp": "^3.9.1",
     "gulp-exec": "^3.0.1",
     "gulp-fileinfo": "^1.0.4",
+    "gulp-imagemin": "^4.1.0",
     "gulp-shell": "^0.6.5"
   }
 }
